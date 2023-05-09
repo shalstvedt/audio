@@ -21,6 +21,8 @@ RUN install_packages \
   pulseaudio-bluez \
   pulseaudio-utils \
   xxd
+  
+RUN usermod -a -G 29 root
 
 # For local development
 #dev-cmd-live=pulseaudio || balena-idle
