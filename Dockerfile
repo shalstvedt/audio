@@ -2,7 +2,7 @@
 # Alpine 3.15 pins PulseAudio version to 15.x.x
 # See https://pkgs.alpinelinux.org/packages?name=pulseaudio&branch=v3.15
 
-ARG BALENA_ARCH=%%BALENA_ARCH%%
+ARG BALENA_ARCH=amd64
 
 FROM balenalib/$BALENA_ARCH-alpine:3.15-run
 WORKDIR /usr/src
